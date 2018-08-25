@@ -45,7 +45,7 @@
                             </div>
                             <div class="form-group">
                                 <?php 
-                                    $query = $this->db->query("SELECT * FROM databasename WHERE UserID = '".$_SESSION['UserID']."' ");
+                                    $query = $this->db->query("SELECT * FROM tablename WHERE UserID = '".$_SESSION['UserID']."' ");
                                     foreach ($query->result() as $row)
                                     {
                                 ?>
